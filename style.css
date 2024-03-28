@@ -36,6 +36,8 @@ nav ul a:hover {
 nav img {
   width: 80px;
 }
+
+/* Hero Section */
 .hero-img {
   width: 98.9vw;
   height: 90vh;
@@ -87,6 +89,8 @@ nav img {
   font-weight: 500;
   color: rgb(248, 243, 243);
 }
+
+/* Menu Section */
 .menu-heading {
   display: flex;
   flex-direction: column;
@@ -124,6 +128,7 @@ nav img {
   text-align: center;
 }
 
+/* Menu list items  */
 table td {
   padding: 20px 50px;
 }
@@ -142,20 +147,27 @@ table td {
   font-weight: 900;
   font-size: 25px;
 }
+
+/* Story */
 .our-story {
   border: 2px solid white;
   padding: 20px;
   border-radius: 20px;
 }
+
+/* Mission */
 .our-mission {
   border: 2px solid white;
   border-radius: 20px;
   padding: 20px 40px;
 }
+
 .our-mission span {
   font-weight: 800;
   color: #a78167;
 }
+
+/* Footer */
 footer {
   background-color: rgb(32, 32, 32);
   padding-bottom: 10px;
@@ -256,6 +268,8 @@ button:hover {
   z-index: 1;
   display: none;
 }
+
+/* Responcive-Mobile */
 @media only screen and (min-width: 300px) {
   nav {
     width: 100vw;
@@ -328,6 +342,8 @@ button:hover {
     display: flex;
   }
 }
+
+/* Responcive-Tablet */
 @media only screen and (min-width: 768px) {
   .container {
     flex-direction: row;
@@ -352,6 +368,8 @@ button:hover {
     gap: 5px;
   }
 }
+
+/* Responcive-laptop */
 @media only screen and (min-width: 1024px) {
   nav {
     padding: 0px 100px;
