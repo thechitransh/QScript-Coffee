@@ -50,6 +50,7 @@ nav img {
 }
 .container {
   display: flex;
+
   justify-content: space-evenly;
   gap: 100px;
 }
@@ -286,6 +287,9 @@ button:hover {
     color: #6f4e37;
     font-size: 30px;
   }
+  .hero-section {
+    height: 68%;
+  }
   .container {
     flex-direction: column;
     gap: 50px;
@@ -346,9 +350,11 @@ button:hover {
     display: flex;
   }
 }
-
 /* Responcive-Tablet */
 @media only screen and (min-width: 768px) {
+  .hero-section {
+    height: 30%;
+  }
   .container {
     flex-direction: row;
     width: 90vw;
